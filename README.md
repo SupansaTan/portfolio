@@ -1,6 +1,6 @@
-# vue-test
+# Supansa's Portfolio
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
