@@ -1,0 +1,9 @@
+@import "/src/app/scss/variables";
+
+.text-menu {
+  color: $black;
+
+  &:hover {
+    color: $dark-grey;
+  }
+}

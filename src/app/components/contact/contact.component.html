@@ -1,0 +1,9 @@
+<div>
+  <a
+    *ngFor="let item of contactList"
+    [href]="item.href"
+    target="_blank"
+  >
+  <i class="bi bi-{{item.iconClass}} pe-2 text-menu fs-5"></i>
+  </a>
+</div>

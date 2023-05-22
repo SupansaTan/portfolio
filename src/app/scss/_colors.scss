@@ -1,4 +1,12 @@
-$pink: #ffe8df;
-$grey: #f0f0f0;
-$dark-grey: #888888;
+@import "./variables";
+
+.text- {
+  &dark-grey {
+    color: $dark-grey;
+  }
+
+  &black {
+    color: $black;
+  }
+}
 
