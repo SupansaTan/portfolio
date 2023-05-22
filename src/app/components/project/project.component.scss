@@ -1,0 +1,22 @@
+@import "/src/app/scss/variables";
+
+.text-menu {
+  color: $dark-grey;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+.card-content {
+  overflow: hidden;
+}
+
+.project-type {
+  position: absolute;
+  color: rgba($color: $dark-grey, $alpha: 0.3);
+  font-size: 50px;
+  top: 0;
+  left: 90%;
+  transform: translateY(100px) rotate(20deg);
+}

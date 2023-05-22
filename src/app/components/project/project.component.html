@@ -1,0 +1,38 @@
+<div class="my-5">
+  <h4 class="fw-bold" id="project">Projects</h4>
+
+  <div class="row row-cols-1 gy-2 px-2">
+    <div *ngFor="let item of projectList; index as i;" class="col">
+
+      <div class="bg-white-transparent rounded-4 py-3 px-3 h-100 row position-relative card-content">
+        <div class="col-4 px-0">
+
+        </div>
+
+        <div class="col-8 px-0">
+          <a [href]="item.repositoryLink" target="_blank" class="text-decoration-none text-black">
+            <h6 class="fw-bold">{{ item.name }} <i class="bi bi-github ps-2 text-menu fs-5"></i></h6>
+          </a>
+
+          <p class="text-r14">{{ item.description }}</p>
+
+          <!-- skill -->
+          <div class="d-flex flex-row flex-wrap">
+            <label class="me-2 px-2 py-1 rounded-pill bg-white text-r12 mt-2 fw-bold" *ngFor="let title of item.skills">
+              {{ title }}
+            </label>
+          </div>
+        </div>
+
+        <!-- icon bg -->
+        <ng-container *ngIf="item.platform === platformType.WebApp">
+          <i class="bi bi-globe2 project-type"></i>
+        </ng-container>
+
+        <ng-container *ngIf="item.platform === platformType.MobileApp">
+          <i class="bi bi-phone project-type"></i>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>
