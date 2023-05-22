@@ -8,5 +8,9 @@ export const ContactList: Array<ContactModel> = [
   {
     href: 'https://www.linkedin.com/in/supansa-tantulset',
     iconClass: 'linkedin'
+  },
+  {
+    href: 'mailto:supansa.tantulset@gmail.com',
+    iconClass: 'envelope-fill'
   }
 ]
