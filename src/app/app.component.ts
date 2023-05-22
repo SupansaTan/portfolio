@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AboutMe } from './constants/about-me.constant';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
+  aboutMe: string = AboutMe;
 }

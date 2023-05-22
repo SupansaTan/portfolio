@@ -1,6 +1,6 @@
 <nav class="nav nav-pills flex-column">
   <a class="nav-link ps-0 text-menu" *ngFor="let menu of navMenuList; let i = 'index+1'" [href]="menu.href">
-    <i class="bi me-2" [ngClass]="['bi-' + i + '-circle-fill']"></i>
+    <i class="bi me-2 bi-{{i}}-circle-fill"></i>
     {{ menu.title }}
   </a>
 </nav>

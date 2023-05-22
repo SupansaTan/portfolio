@@ -1,5 +1,6 @@
 @import "./variables";
 
+/* text */
 .text- {
   &dark-grey {
     color: $dark-grey;
@@ -10,3 +11,21 @@
   }
 }
 
+/* background */
+.bg-white-transparent {
+  background-color: rgba($color: #fff, $alpha: 0.2);
+
+  &:hover {
+    background-color: rgba($color: #fff, $alpha: 0.4);
+  }
+}
+
+.bg-grey-transparent {
+  background-color: rgba($color: $grey, $alpha: 0.4);
+}
+
+.bg- {
+  &pink {
+    background-color: $pink;
+  }
+}

@@ -1,0 +1,27 @@
+<div class="my-5">
+  <h4 class="fw-bold" id="experience">Experiences</h4>
+
+  <div class="row row-cols-1 gy-2 px-2">
+    <div *ngFor="let item of experienceList; index as i;" class="col">
+
+      <div class="bg-white-transparent rounded-4 py-3 px-3 h-100 row">
+        <div class="col-4 px-0">
+          <pre>{{ item.startDate }} - {{ item.endDate }}</pre>
+        </div>
+
+        <div class="col-8 px-0">
+          <h6 class="fw-bold">{{ item.role }}</h6>
+          <pre>at {{ item.company }}</pre>
+          <p class="text-r14">{{ item.description }}</p>
+
+          <!-- skill -->
+          <div class="d-flex flex-row flex-wrap">
+            <label class="me-2 px-2 py-1 rounded-pill bg-white text-r12 mt-2 fw-bold" *ngFor="let title of item.skill">
+              {{ title }}
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

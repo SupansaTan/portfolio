@@ -2,3 +2,13 @@ $pink: #ffe8df;
 $grey: #f0f0f0;
 $dark-grey: #888888;
 $black: #292929;
+
+.text- {
+  &r12 {
+    font-size: 12px;
+  }
+
+  &r14 {
+    font-size: 14px;
+  }
+}
