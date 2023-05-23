@@ -5,13 +5,13 @@
     <div *ngFor="let item of experienceList; index as i;" class="col">
 
       <div class="bg-white-transparent rounded-4 py-3 px-3 h-100 row">
-        <div class="col-4 px-0">
-          <pre>{{ item.startDate }} - {{ item.endDate }}</pre>
+        <div class="col-12 col-md-4 px-0">
+          <pre class="mb-1">{{ item.startDate }} - {{ item.endDate }}</pre>
         </div>
 
-        <div class="col-8 px-0">
+        <div class="col-12 col-md-8 px-0">
           <h6 class="fw-bold">{{ item.role }}</h6>
-          <pre>at {{ item.company }}</pre>
+          <p class="text-r14">at <b>{{ item.company }}</b></p>
           <p class="text-r14">{{ item.description }}</p>
 
           <!-- skill -->

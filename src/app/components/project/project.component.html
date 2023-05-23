@@ -6,7 +6,7 @@
 
       <div class="bg-white-transparent rounded-4 py-3 px-3 h-100 row position-relative card-content">
         <!-- project image cover -->
-        <div class="col-4 ps-0" ngxViewer>
+        <div class="col-12 col-md-4 ps-0 order-1 order-md-0 mt-2 mt-md-0" ngxViewer>
           <div class="col-12 mb-2">
             <img [src]="item.imagePath[0]" class="rounded big-img" role="button"/>
           </div>
@@ -28,7 +28,7 @@
           </ng-container>
         </div>
 
-        <div class="col-8 px-0">
+        <div class="col-12 col-md-8 px-0 order-0 order-md-1">
           <a [href]="item.repositoryLink" target="_blank" class="text-decoration-none text-black">
             <h6 class="fw-bold">{{ item.name }} <i class="bi bi-github ps-2 text-menu fs-5"></i></h6>
           </a>

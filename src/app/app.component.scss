@@ -1,11 +1,30 @@
-.content {
-  overflow-y: auto;
-  height: calc(100vh - 9rem);
-  max-height: calc(100vh - 9rem);
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+@media (max-width: 991.98px) {
+  .content-container {
+    overflow-y: auto;
+    height: calc(100vh - 3rem);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 
-  &::-webkit-scrollbar {
-    display: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
+}
+
+@media (min-width: 992px) {
+  .content {
+    overflow-y: auto;
+    height: calc(100vh - 9rem);
+    max-height: calc(100vh - 9rem);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+.about-me-content {
+  white-space: pre-line;
 }

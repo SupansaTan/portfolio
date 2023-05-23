@@ -19,6 +19,10 @@
   top: 0;
   left: 90%;
   transform: translateY(100px) rotate(20deg);
+
+  @media (max-width: 991.98px) {
+    left: 85%;
+  }
 }
 
 .big-img {

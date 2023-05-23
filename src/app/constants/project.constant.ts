@@ -6,7 +6,7 @@ export const ProjectList: Array<ProjectModel> = [
     name: 'KinMai',
     description:
       `Web application for finding and reviewing restaurants, a mini-game for the user who is unsure
-      what to eat and dashboard for restaurant owner to get feedback their restaurant`,
+      what to eat and dashboard for restaurant owner to get feedback their restaurant.`,
     imagePath: [
       'https://drive.google.com/uc?export=view&id=1rmzQAdNFup-eiDa_CW4HFhj1U8hxgDmB',
       'https://drive.google.com/uc?export=view&id=1rlj9x_vO3Bq0bOc9q-Uz94AoQjnXTILV',
@@ -125,7 +125,7 @@ export const ProjectList: Array<ProjectModel> = [
     name: 'LabTrack',
     description:
       `Web application for tracking people who enter laboratories.
-      COVID-19 tracker for ECE department at KMUTNB and `,
+      COVID-19 tracker for ECE department at KMUTNB and has 100 users per week.`,
     imagePath: [
       'https://drive.google.com/uc?export=view&id=1L7gtojSxJKHygweLvs0MCpWdFUvFx6xa',
       'https://drive.google.com/uc?export=view&id=1Z879pkOiZofV1D0VdidBI2j-EgVmrMdp'
