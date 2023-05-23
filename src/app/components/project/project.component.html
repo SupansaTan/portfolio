@@ -5,8 +5,27 @@
     <div *ngFor="let item of projectList; index as i;" class="col">
 
       <div class="bg-white-transparent rounded-4 py-3 px-3 h-100 row position-relative card-content">
-        <div class="col-4 px-0">
+        <!-- project image cover -->
+        <div class="col-4 ps-0" ngxViewer>
+          <div class="col-12 mb-2">
+            <img [src]="item.imagePath[0]" class="rounded big-img" role="button"/>
+          </div>
 
+          <div class="row g-2">
+            <div *ngFor="let img of item.imagePath?.slice(1,4); index as i;" class="col">
+              <img [src]="img" class="rounded mini-img w-100" role="button"/>
+            </div>
+          </div>
+
+          <ng-container *ngIf="item.imagePath.length > 3">
+            <img
+              *ngFor="let img of item.imagePath?.slice(4, item.imagePath.length)"
+              [src]="img"
+              class="rounded mini-img"
+              role="button"
+              [hidden]="true"
+            />
+          </ng-container>
         </div>
 
         <div class="col-8 px-0">
