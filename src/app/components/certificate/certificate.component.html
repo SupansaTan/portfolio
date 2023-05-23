@@ -1,0 +1,29 @@
+<div class="mt-5">
+  <h4 class="fw-bold" id="certificate">Certificates</h4>
+
+  <div class="row row-cols-1 gy-2 px-2">
+    <div *ngFor="let item of certificateList; index as i;" class="col">
+
+      <div class="bg-white-transparent rounded-4 py-3 px-3 h-100 row position-relative card-content">
+        <!-- project image cover -->
+        <div class="col-4 ps-0" ngxViewer>
+          <div class="col-12 mb-2">
+            <img [src]="item.image" class="rounded img-cover" role="button"/>
+          </div>
+        </div>
+
+        <div class="col-8 px-0">
+          <h6 class="fw-bold">
+            {{ item.title }}
+            <i class="bi bi-dot"></i>
+            {{ item.organize }}
+            <i class="bi bi-dot"></i>
+            {{ item.year }}
+          </h6>
+
+          <p class="text-r14">{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
