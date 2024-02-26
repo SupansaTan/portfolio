@@ -7,7 +7,7 @@ export const NavMenuList: Array<MenuItem> = [
   },
   {
     title: 'Experiences',
-    href: '#experience'
+    href: '#exp'
   },
   {
     title: 'Projects',
