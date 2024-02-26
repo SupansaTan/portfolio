@@ -5,9 +5,9 @@ export const ExperienceList: Array<ExperienceModel> = [
     role: 'Software Developer',
     company: 'Sirisoft Public Company Limited',
     startDate: 'August 2023',
-    endDate: 'Present',
+    endDate: 'February 2024',
     description:
-      `- Setup a Jenkins pipeline for Angular linting (ESLint), unit testing (Jest), and end-to-end testing.
+      `- Setup a Jenkins pipeline for Angular linting (ESLint), unit testing (Jest), and end-to-end testing (Cypress with Cucumber).
       - Configure ESLint, Jest, and Cypress with Cucumber ni frontend repositories.
       - Enhance the Jenkins pipeline to minimize dependency installation time and address issues causing pipeline failures.
       - Setup Gitlab webhooks to trigger the Jenkins pipeline build on push event.
@@ -24,8 +24,10 @@ export const ExperienceList: Array<ExperienceModel> = [
     company: 'BUILK ONE GROUP',
     startDate: 'June 2022',
     endDate: 'August 2022',
-    description: `Developed web application which is the backoffice of the product
-      for admins to manage users, organizations, reference codes, KPI values, and so on.`,
+    description:
+      `- Developed and implemented website functionality, including adding field to be able to fill in user reference code, filtering and managing users, reference codes, and KPI values.
+      - Collaborated with senior developers, business analyst and project manager to ensure that websites are developed according to best practices and meet project requirements.
+      - Worked on both frontend and backend.`,
     skill: [
       'ASP.NET Core', 'Angular', 'C#', 'TypeScript', 'SCSS'
     ]
@@ -35,7 +37,8 @@ export const ExperienceList: Array<ExperienceModel> = [
     company: 'Fastwork platform',
     startDate: 'June 2021',
     endDate: 'March 2022',
-    description: 'Build Responsive website from customer graphic design, e.g. Figma, Zeplin, Adobe XD, etc.',
+    description:
+      `Completed 14 freelance projects with build responsive and animate websites based on customer graphic designs from design tools that meet project requirements.`,
     skill: [
       'React', 'Angular', 'HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Next.js'
     ]
